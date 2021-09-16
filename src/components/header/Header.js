@@ -5,12 +5,15 @@ import Mobile from "../../images/mobile-btn.png";
 const Header = () => {
     const [active, setActive] = useState(false);
 
+    //functions that handle the responsiveness
+
     const MobileViewBtn = () => {
         setActive(!active);
     };
+
     return (
-        <div className="bg-white">
-            <header className="mt-3 ml-auto mr-auto w-11/12 flex justify-between cursor-pointer">
+        <div className="bg-white mt-3 ml-auto mr-auto w-40/50">
+            <header className=" flex justify-between cursor-pointer">
                 <img src={Logo} alt="logo" className="h-6 w-44 mt-3" />
                 <img
                     src={Mobile}
@@ -34,11 +37,11 @@ const Header = () => {
                             FAQs
                         </li>
                     </ul>
-                    <div className="flex flex-col  md:justify-between md:flex-row">
-                        <button className="text-blue-700 h-12 w-44 bg-white  text-base font-bold py-2 px-4  mb-3 rounded border border-green-300 mr-3 border-transparent">
+                    <div className="flex flex-col   md:justify-between md:flex-row  md:items-end ">
+                        <button className="text-blue-700 h-12 w-44 bg-white  text-base font-bold py-2 px-4  mb-3 rounded border border-green-300 mr-6 border-transparent ">
                             Login
                         </button>
-                        <button className="text-white h-12 w-44 bg-green-300 text-sm font-bold py-2 px-4 rounded border-transparent">
+                        <button className="text-white h-12 w-44 bg-green-300 text-sm font-bold py-2 px-4 mb-3 rounded border-transparent ">
                             Create a free account
                         </button>
                     </div>
