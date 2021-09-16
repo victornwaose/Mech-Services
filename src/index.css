@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.button {
+
+    border: 1px solid;
+    border-image-slice: 1;
+}
+.border-gradient-purple{
+    border-image-source: linear-gradient(to top,  #493ad5, #3aeb6f);
+}
+.hero {
+    background-image: url("./images/background-img.png");
+    background-position: center;
+    background-size: cover;
+    height: 36rem;
+  }

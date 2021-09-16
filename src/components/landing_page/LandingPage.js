@@ -1,13 +1,17 @@
 import React from "react";
+import Hero from "./Hero";
 import Student from "../../images/student.jpg";
 import SuperMarket from "../../images/superMarket.png";
 import African from "../../images/African-entrepreneur.png";
 import Tailor from "../../images/tailor.png";
+import Dollar from "../../images/dollar.svg";
+import Coin from "../../images/coins.png";
+import People from "../../images/people.png";
 
 const LandingPage = () => {
     return (
-        <div className="mt-3 ml-auto mr-auto w-40/50">
-            <div className="flex  flex-col  md:flex-row">
+        <div className="">
+            <div className="flex  flex-col  md:flex-row mt-3 ml-auto mr-auto w-40/50">
                 <div className="mt-10  ">
                     <h4 className="text-gray-400  ">A market place for SMBs</h4>
                     <h1 className=" w-80 text-4xl md:w-01 md:text-6xl font-bold mb-3 text-blue-700">
@@ -44,6 +48,75 @@ const LandingPage = () => {
                         alt="Tailor"
                         className=" w-24 h-36 sm:mt-6 md:w-40 md:h-56 ml-2 md:mt-20"
                     />
+                </div>
+            </div>
+            <div className="mt-3 ml-auto mr-auto w-40/50">
+                <h3 className="text-gray-400 text-center font-bold">
+                    What we do
+                </h3>
+                <h1 className="text-center text-4xl font-bold w-5/6 ml-auto mr-auto text-blue-700">
+                    We help scale small/medium sized businesses with access to
+                    loans from investors
+                </h1>
+                <div className="flex  flex-wrap mt-5 items-center md:flex  md:m-auto md:flex-nowrap">
+                    <div className="bg-gray-100 mr-9 rounded-xl p-8 block mb-6 md:w-1/4 md:p-8  ">
+                        <img src={Dollar} alt="section1" />
+                        <h1 className=" text-sm text-gray-700 font-semibold md:text-base">
+                            Access to funds
+                        </h1>
+                        <p className="text-sm text-gray-500 font-normal ">
+                            Experience the opportunity to access business
+                            expansion funds and educational tools to guarantee
+                            success.
+                        </p>
+                    </div>
+                    <div className="bg-gray-100 rounded-xl  mr-9 p-8 block mb-6 md:w-1/4 md:p-8  ">
+                        <img src={Coin} alt="section1" />
+                        <h1 className=" text-sm text-gray-700 font-semibold md:text-base">
+                            Investment opportunity
+                        </h1>
+                        <p className="text-sm text-gray-500 font-normal ">
+                            Make your money serve a greater purpose while also
+                            earning returns on your investment.
+                        </p>
+                    </div>
+                    <div className="bg-gray-100 rounded-xl mr-9 p-8 block mb-6 md:w-1/4 md:p-8  ">
+                        <img src={People} alt="section1" />
+                        <h1 className=" text-sm text-gray-700 font-semibold md:text-base">
+                            Marketplace for SMBS
+                        </h1>
+                        <p className="text-sm text-gray-500 font-normal ">
+                            Marketplace for SMBs and investors. Providing the
+                            required funds for expansion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {/* section 3 */}
+            <div className="mt-12 ml-auto mr-auto w-40/50">
+                <h3 className="text-gray-400 text-center font-bold">
+                    What we offer
+                </h3>
+                <h1 className="text-center text-4xl font-bold w-5/6 ml-auto mr-auto text-blue-700">
+                    The major challenge in the African market for small and
+                    medium business owners is access to funds.
+                </h1>
+                <h4 className=" w-3/4 text-xl ml-auto mr-auto text-center text-gray-400 font-normal mt-1">
+                    There are millions of people in Africa who are constantly
+                    looking for better ways to invest their money.
+                </h4>
+                <div className=" flex text w-1/2 ml-auto mr-auto mt-10 mb-10">
+                    <button className=" button border-gradient-purple w-34 h-7 px-7 ml-60 text-blue-700 ">
+                        Merchant
+                    </button>
+                    <button className="w-20 h-7 py-4 px-7 text-blue-700">
+                        Investor
+                    </button>
+                </div>
+                <div className="relative w-full">
+                    <div className=" ">
+                        <h1>mean</h1>
+                    </div>
                 </div>
             </div>
         </div>

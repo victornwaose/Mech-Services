@@ -4,7 +4,7 @@ import LandingPage from "./components/landing_page/LandingPage";
 
 function App() {
     return (
-        <div className="max-w-7xl">
+        <div className="w-full">
             <Header />
             <LandingPage />
         </div>
