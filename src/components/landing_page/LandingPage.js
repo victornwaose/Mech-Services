@@ -50,16 +50,17 @@ const LandingPage = () => {
                     />
                 </div>
             </div>
+            {/* section2 */}
             <div className="mt-3 ml-auto mr-auto w-40/50">
                 <h3 className="text-gray-400 text-center font-bold">
                     What we do
                 </h3>
-                <h1 className="text-center text-4xl font-bold w-5/6 ml-auto mr-auto text-blue-700">
+                <h1 className="text-center  sm:w-80 text-2xl font-bold  ml-auto mr-auto text-blue-700 mb-9 md:text-4xl md:w-5/6">
                     We help scale small/medium sized businesses with access to
                     loans from investors
                 </h1>
-                <div className="flex  flex-wrap mt-5 items-center md:flex  md:m-auto md:flex-nowrap">
-                    <div className="bg-gray-100 mr-9 rounded-xl p-8 block mb-6 md:w-1/4 md:p-8  ">
+                <div className="flex  flex-wrap mt-10 items-center md:flex   w-5/6 ml-auto mr-auto  md:m-auto md:flex-nowrap">
+                    <div className="bg-gray-100 w-96 h-56 mr-9 rounded-xl p-8 block mb-6 md:w-1/4 md:p-8  ">
                         <img src={Dollar} alt="section1" />
                         <h1 className=" text-sm text-gray-700 font-semibold md:text-base">
                             Access to funds
@@ -70,7 +71,7 @@ const LandingPage = () => {
                             success.
                         </p>
                     </div>
-                    <div className="bg-gray-100 rounded-xl  mr-9 p-8 block mb-6 md:w-1/4 md:p-8  ">
+                    <div className="bg-gray-100 rounded-xl w-96 h-56 mr-9 p-8 block mb-6 md:w-1/4 md:p-8  ">
                         <img src={Coin} alt="section1" />
                         <h1 className=" text-sm text-gray-700 font-semibold md:text-base">
                             Investment opportunity
@@ -80,7 +81,7 @@ const LandingPage = () => {
                             earning returns on your investment.
                         </p>
                     </div>
-                    <div className="bg-gray-100 rounded-xl mr-9 p-8 block mb-6 md:w-1/4 md:p-8  ">
+                    <div className="bg-gray-100 rounded-xl mr-9 w-96 h-56 p-8 block mb-6 md:w-1/4 md:p-8  ">
                         <img src={People} alt="section1" />
                         <h1 className=" text-sm text-gray-700 font-semibold md:text-base">
                             Marketplace for SMBS
@@ -97,7 +98,7 @@ const LandingPage = () => {
                 <h3 className="text-gray-400 text-center font-bold">
                     What we offer
                 </h3>
-                <h1 className="text-center text-4xl font-bold w-5/6 ml-auto mr-auto text-blue-700">
+                <h1 className="text-center sm:w-80 sm:text-2xl md:text-4xl font-bold md:w-5/6 ml-auto mr-auto text-blue-700">
                     The major challenge in the African market for small and
                     medium business owners is access to funds.
                 </h1>
@@ -106,10 +107,10 @@ const LandingPage = () => {
                     looking for better ways to invest their money.
                 </h4>
                 <div className=" flex text w-1/2 ml-auto mr-auto mt-10 mb-10">
-                    <button className=" button border-gradient-purple w-34 h-7 px-7 ml-60 text-blue-700 ">
+                    <button className=" button border-gradient-purple sm:ml-0 sm:w-14 sm:h-5 w-34 h-7 px-7 md:ml-60 text-blue-700 ">
                         Merchant
                     </button>
-                    <button className="w-20 h-7 py-4 px-7 text-blue-700">
+                    <button className="w-20  -m-3 py-4 px-7 sm:w-14 sm:h-5 mw-34 h-7   text-blue-700">
                         Investor
                     </button>
                 </div>
