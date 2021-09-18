@@ -119,7 +119,7 @@ const LandingPage = () => {
                         </button>
                     </div>
                 </div>
-                <div className="hero relative w-full ">
+                <div className="hero relative w-full pb-12 ">
                     <div className="ml-auto mr-auto w-40/50">
                         <h1 className="text-right text-green-300 text-2xl mt-3">
                             Merchants
@@ -128,18 +128,18 @@ const LandingPage = () => {
                             <div className="flex">
                                 <div className="">
                                     <div className="bg-blue-900 rounded-xl p-8  mb-6 ">
-                                        <div className=" w-18 h-18 md:w-44  md:h-36">
+                                        <div className=" w-28 h-28 md:w-44  md:h-36">
                                             <img src={Dot} alt="dots" />
-                                            <h1 className=" font-bold text-gray-200 sm:w-28 md:text-base  md:w-52 text-left ">
+                                            <h1 className=" font-bold text-gray-200 md:text-base text-left ">
                                                 Get funding without hassle,
                                                 tedious or protocol
                                             </h1>
                                         </div>
                                     </div>
                                     <div className="bg-blue-900 rounded-xl p-8  mb-6 ">
-                                        <div className=" w-18 h-18 md:w-44  md:h-36">
+                                        <div className=" w-28 h-28 md:w-44  md:h-36">
                                             <img src={Dot} alt="dots" />
-                                            <h1 className=" font-bold text-gray-200 sm:w-28 md:text-base  md:w-52   text-left ">
+                                            <h1 className=" font-bold text-gray-200  md:text-base  text-left ">
                                                 Interactive and easy to use
                                                 interface
                                             </h1>
@@ -148,9 +148,9 @@ const LandingPage = () => {
                                 </div>
 
                                 <div className="bg-blue-900 mt-32  rounded-xl mb-9 ml-3 p-8   ">
-                                    <div className=" w-18 h-18 md:w-44  md:h-36">
+                                    <div className=" w-28 h-28 md:w-44  md:h-36">
                                         <img src={Dot} alt="dots" />
-                                        <h1 className=" font-bold text-gray-200 sm:w-28 md:text-base  md:w-52 text-left ">
+                                        <h1 className=" font-bold text-gray-200 md:text-base  text-left ">
                                             Customer support to ensure your
                                             questions are answered
                                         </h1>
@@ -189,7 +189,7 @@ const LandingPage = () => {
                     className="absolute top-0 -left-16"
                 />
                 <div>
-                    <h1 className="mt-3 text-5xl ml-4 font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-green-300">
+                    <h1 className="mt-3 sm:text-3xl md:text-5xl ml-4 font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-green-300">
                         By connecting investors to SMBs we give life to business
                         ideas, empowering businesses with funds to thrive.{" "}
                     </h1>
@@ -197,8 +197,8 @@ const LandingPage = () => {
                 </div>
             </div>
             {/* section 5 */}
-            <div className="absolute w-40/50 mt-36 ml-auto mr-auto">
-                <div className=" w-3/4  bg-blue-500 rounded-xl p-8 ml-auto mr-auto justify-center  ">
+            <div className="relative w-40/50 mt-36 ml-auto mr-auto">
+                <div className=" bg-blue-500 rounded-xl p-8 sm:left-40 md:left-52 -top-20 ml-auto mr-auto justify-center  absolute sm:w-2/4 md:w-3/4 ">
                     <div className="text-center">
                         <h1 className=" font-semibold text-gray-300 mt-2 md:text-6xl">
                             Get in Touch
@@ -210,12 +210,12 @@ const LandingPage = () => {
                     <div className=" w-3/4 ml-auto mr-auto">
                         {" "}
                         <input
-                            className="border-2 border-gray-300  bg-blue-500 h-10 p-2 px-3 w-3/5 rounded-lg text-sm focus:outline-none md:px-11"
+                            className="border-2 border-gray-300 w-full  bg-blue-500 h-10 p-2 px-3 md:w-3/5 rounded-lg text-sm focus:outline-none sm:px-9 md:px-11"
                             type="search"
                             name="search"
                             placeholder="enter your email"
                         />
-                        <button className="bg-green-400 p-2 ml-3 m-2 px-8 text-gray-200 rounded-md md:m-2  ">
+                        <button className="bg-green-400 p-2 w-full md:ml-3 mt-3 px-8 text-gray-200 rounded-md md:m-2  ">
                             Subscribe
                         </button>
                     </div>
